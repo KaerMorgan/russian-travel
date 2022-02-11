@@ -1,0 +1,18 @@
+.footer__copyright {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: right;
+  color: #FFFFFF;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.footer__copyright:hover {
+  opacity: 0.8;
+}

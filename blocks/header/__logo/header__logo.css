@@ -1,5 +1,5 @@
 .header__logo {
-  margin: 28px 0 0 48px;
+  margin: 28px 0 0;
   padding: 0;
   background-image: url(../../../images/header-logo.svg);
   background-size: cover;

@@ -16,3 +16,10 @@
 .footer__copyright:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    line-height: 1;
+    text-align: left;
+  }
+}

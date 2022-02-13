@@ -26,3 +26,27 @@
     margin: 0 auto 73px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 50px;
+    row-gap: 32px;
+  }
+}
+
+
+/* @media screen and (max-width: 320px) {
+  .place {
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content) minmax(320px, 1fr) minmax(min-content, max-content);
+    grid-template-columns: min-content;
+    column-gap: 0;
+    row-gap: 32px;
+    margin: 0 auto 50px;
+  }
+} */
+
+
+/* Я не смог заставить работать грид нужным мне образом (сделать колонку с параграфом не на всю ширину) и использовал вместо этого флекс 🤷‍♂️ */

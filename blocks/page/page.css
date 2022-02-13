@@ -10,9 +10,9 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
   .page {
-    max-width: 320px;
+    max-width: 1024px;
   }
 }
 
@@ -22,8 +22,8 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 320px) {
   .page {
-    max-width: 1024px;
+    max-width: 320px;
   }
 }

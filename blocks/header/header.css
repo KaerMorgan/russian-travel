@@ -12,3 +12,10 @@
     margin: 0 auto 56px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: calc(100% - 32px);
+    margin: 0 auto 48px;
+  }
+}

@@ -11,5 +11,17 @@
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
+    margin: 0 0 25px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    max-width: 100%;
+    font-size: 16px;
+    margin: 0 16px 25px;
+  }
+}
+
+
+/* К сожалению, row-gap: 25px не сработало и пришлось использовать костыль */
